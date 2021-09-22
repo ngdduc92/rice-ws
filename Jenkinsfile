@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Integration testing') {
             steps {
-                echo 'Integration Testing '
+                echo 'Integration Testing'
             }
         }
         stage('Release') {
