@@ -25,5 +25,10 @@ pipeline {
                 echo 'Releasing '
             }
         }
+        stage('Cleaning') {
+            steps {
+                echo 'Cleaning'
+            }
+        }
     }
 }
